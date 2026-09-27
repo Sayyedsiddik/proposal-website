@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Very Important Question ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <div class="container">
+
+        <div id="questionBox">
+            <div class="emoji" id="emoji">💌</div>
+
+            <h1 id="question">Hey! I have a very important question...</h1>
+
+            <p id="subText">You have to answer honestly 😌</p>
+
+            <div class="buttons">
+                <button id="yesBtn">YES ❤️</button>
+                <button id="noBtn">NO 😭</button>
+            </div>
+        </div>
+
+        <div id="successBox" class="hidden">
+            <div class="emoji">🎉</div>
+            <h1>CONGRATULATIONS! ❤️</h1>
+
+            <p class="bigText">
+                You have successfully accepted the proposal! 😎
+            </p>
+
+            <p>
+                Your decision has been recorded and there is absolutely
+                no possibility of cancellation. 😂
+            </p>
+
+            <button class="finalBtn" onclick="showPayment()">
+                Continue 😏
+            </button>
+        </div>
+
+        <div id="paymentBox" class="hidden">
+            <div class="emoji">💰</div>
+
+            <h1>WAIT! 😳</h1>
+
+            <p class="bigText">
+                Want to reject this proposal?
+            </p>
+
+            <p>
+                Rejection charges: <strong>₹500</strong> 😂
+            </p>
+
+            <div class="qrBox">
+    <img src="myqr.png" alt="UPI QR Code" class="qrImage">
+</div>
+
+            <p class="smallText">
+                Scan the QR code to pay ₹500 and escape. 😭
+            </p>
+
+            <p class="warning">
+                ⚠️ No refunds. No negotiations. No escape.
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
